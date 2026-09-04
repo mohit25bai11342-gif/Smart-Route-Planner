@@ -844,6 +844,272 @@ java main
 ```
 
 ---
+# ⚙️ Setup and Run
+
+## 1. Environment Setup
+
+Before running the project, make sure **Java JDK** is installed on your system.
+
+### Check Java Installation
+
+Open Command Prompt, PowerShell, or the VS Code terminal and run:
+
+```bash
+java --version
+```
+
+Also check the Java compiler:
+
+```bash
+javac --version
+```
+
+If both commands display a Java version, the environment is ready.
+
+### Recommended Version
+
+- Java JDK 17 or later
+- VS Code / IntelliJ IDEA / Eclipse (optional)
+- Git (optional, required only for cloning the repository)
+
+---
+
+## 2. Clone the Repository
+
+Clone the project from GitHub:
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+```
+
+Move into the project directory:
+
+```bash
+cd Smart-Multi-City-Route-Planner
+```
+
+If you downloaded the project as a ZIP file, extract it and open the extracted project folder in the terminal.
+
+---
+
+## 3. Dependency Installation
+
+This project does **not require any external dependencies or third-party libraries**.
+
+It uses only:
+
+- Java Standard Library
+- Java Collections Framework
+
+The project uses built-in Java classes such as:
+
+```text
+HashMap
+ArrayList
+HashSet
+PriorityQueue
+Comparable
+Scanner
+```
+
+Therefore, no Maven, Gradle, or external JAR files are required.
+
+---
+
+## 4. Configuration
+
+No additional configuration is required to run the current version of the project.
+
+The following information is already defined inside the Java source code:
+
+- Cities
+- Stations
+- Routes
+- Route distances
+- Transportation modes
+- Fare calculations
+- Travel-time calculations
+
+No:
+
+- API key
+- Database
+- Environment variables
+- External configuration file
+
+is required.
+
+---
+
+## 5. Compile the Project
+
+Open the terminal inside the project folder and run:
+
+```bash
+javac main.java
+```
+
+If the compilation is successful, Java will generate the required `.class` files.
+
+If no error message appears, the project has been compiled successfully.
+
+---
+
+## 6. Run the Project
+
+After successful compilation, run:
+
+```bash
+java main
+```
+
+The application will display the main menu:
+
+```text
+========================================
+      SMART MULTI-CITY ROUTE PLANNER
+========================================
+
+1. Bhopal
+2. Indore
+3. Ujjain
+4. Sehore
+5. Exit
+
+Enter your choice:
+```
+
+---
+
+## 7. Using the Application
+
+### Step 1
+
+Select a city by entering its number.
+
+```text
+Enter your choice: 1
+```
+
+### Step 2
+
+The city menu will be displayed.
+
+```text
+1. Show Stations
+2. Show Routes
+3. Find Shortest Route
+4. Return
+5. Exit
+```
+
+### Step 3
+
+Select an operation.
+
+For example:
+
+```text
+Enter your choice: 3
+```
+
+### Step 4
+
+Enter the source station.
+
+```text
+Enter source station:
+```
+
+### Step 5
+
+Enter the destination station.
+
+```text
+Enter destination station:
+```
+
+### Step 6
+
+The system uses **Dijkstra's Shortest Path Algorithm** to calculate the shortest route.
+
+The result displays information such as:
+
+```text
+Shortest Route:
+Station A → Station B → Station D
+
+Total Distance: 9 km
+Estimated Time: 27 minutes
+Estimated Fare: ₹28
+```
+
+---
+
+## 8. Troubleshooting
+
+### Java Not Found
+
+If the terminal shows:
+
+```text
+'java' is not recognized
+```
+
+install the Java JDK and configure the Java `bin` directory in the system `PATH`.
+
+Then restart the terminal and check:
+
+```bash
+java --version
+```
+
+### Compiler Not Found
+
+If:
+
+```bash
+javac --version
+```
+
+does not work, make sure the **JDK** is installed and configured correctly.
+
+### Compilation Error
+
+Make sure you are inside the project directory:
+
+```bash
+cd Smart-Multi-City-Route-Planner
+```
+
+Then compile again:
+
+```bash
+javac main.java
+```
+
+### Running the Program
+
+After compilation, use:
+
+```bash
+java main
+```
+
+---
+
+## 9. Quick Start
+
+For an evaluator who wants to run the project quickly:
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+cd Smart-Multi-City-Route-Planner
+javac main.java
+java main
+```
+
+That's all that is required to run the project.
 
 # ▶️ How to Use
 
