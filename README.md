@@ -1,10 +1,10 @@
-# 🚌 Smart Multi-City Route Planner
+# 🚌 Smart  Route Planner
 
 ## 📖 Introduction
 
 Transportation networks contain many stations and routes, making it difficult to manually determine the shortest and most efficient path between two locations.
 
-This project presents a **Java-based Smart Multi-City Route Planner** that uses graph data structures and **Dijkstra's Shortest Path Algorithm** to find the shortest route between stations.
+This project presents a **Java-based SMART Route Planner** that uses graph data structures and **Dijkstra's Shortest Path Algorithm** to find the shortest route between stations.
 
 The system supports four cities:
 
