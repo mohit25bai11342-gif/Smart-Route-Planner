@@ -1,8 +1,8 @@
-# 🚌 Smart Multi-City Route Planner — Project Statement
+# 🚌 Smart Route Planner — Project Statement
 
 ## 📌 Project Title
 
-**Smart Multi-City Route Planner**
+**Smart Route Planner**
 
 ---
 
@@ -10,7 +10,7 @@
 
 Transportation systems consist of multiple stations connected through different routes. When the number of stations and connections increases, finding the shortest and most efficient route manually becomes difficult.
 
-The **Smart Multi-City Route Planner** is a Java-based command-line application designed to solve this problem using **Graph Data Structures** and **Dijkstra's Shortest Path Algorithm**.
+The **Smart Route Planner** is a Java-based command-line application designed to solve this problem using **Graph Data Structures** and **Dijkstra's Shortest Path Algorithm**.
 
 The system represents stations as vertices and routes as weighted edges. Users can select a city, view its stations and routes, and find the shortest route between two selected stations.
 
