@@ -879,13 +879,13 @@ If both commands display a Java version, the environment is ready.
 Clone the project from GitHub:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/mohit25bai11342-gif/Smart-Route-Planner>
 ```
 
 Move into the project directory:
 
 ```bash
-cd Smart-Multi-City-Route-Planner
+cd Smart-Route-Planner
 ```
 
 If you downloaded the project as a ZIP file, extract it and open the extracted project folder in the terminal.
