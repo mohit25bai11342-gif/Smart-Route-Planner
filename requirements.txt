@@ -1,1 +1,12 @@
+Java JDK >= 17
 
+No external dependencies required.
+
+Uses Java Standard Library:
+- java.util.HashMap
+- java.util.ArrayList
+- java.util.HashSet
+- java.util.PriorityQueue
+- java.util.Scanner
+- java.lang.Comparable
+- java.lang.Exception
